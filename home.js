@@ -35,6 +35,7 @@
     }
     changeFontSize();
     changeColor();
+    connectFriend();
 
     // Attach functions to the window object
     window.openChat = openChat;
@@ -175,7 +176,7 @@
 
   function closeChat() {
     document.getElementById('discover').style.display = 'block';
-    document.querySelector('.discover-section').style.display = 'block';
+    document.querySelector('.discover-section').style.display = 'flex';
 
     document.getElementById('chatbox').style.display = 'none';
   }
@@ -203,6 +204,21 @@
           sendMessage();
       }
     });
+  }
+
+  function connectFriend() {
+    let connectButtons = document.querySelectorAll('.connect-btn');
+    connectButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.id) {
+          button.textContent = 'Connect';
+          button.id = '';
+        } else {
+          button.textContent = 'Cancel Request';
+          button.id = 'cancel-req';
+        }
+      });
+    })
   }
 
 })();

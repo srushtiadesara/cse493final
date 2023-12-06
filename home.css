@@ -53,7 +53,7 @@ button {
   justify-content: center;
 }
 
-button:hover {
+button:hover, .connect-btn:hover {
   background-color: #1FA3CC;
 }
 
@@ -160,6 +160,7 @@ hr {
   column-gap: 2rem;
   padding-top: 5px;
   padding-bottom: 5px;
+  cursor: pointer;
 }
 
 .friend-flex {
@@ -397,6 +398,11 @@ hr {
 .card-text {
   font-weight: 300;
 }
+
+#cancel-req {
+  background-color: #B3C7CD;
+}
+
 
 /* @media screen and (max-width: 1700px) {
   .sidebar {
