@@ -1,0 +1,410 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  color: var(--default-font-color)
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --primary-color: #25C5F7;
+  --default-font-color: white;
+
+  --sidebar-color: #1A1A1A;
+
+  --card-background-color: white;
+
+  --card-text-color: black;
+
+  --btn-font-color: black;
+
+  --btn-active-color: #202020;
+
+  --t1-color: black;
+  --t2-color: white;
+  --t3-color: #FFF500;
+  --t4-color: #00BFB2;
+  --t5-color: #FA00FF;
+  --t6-color: #FF5C16;
+
+  --t1-bg-color: white;
+  --t2-bg-color: #111111;
+  --t3-t4-t5-t6-bg-color: black;
+
+  --border-style: solid;
+}
+
+.card-text {
+  color: var(--card-text-color);
+}
+
+button, .friend-card, .friend-req-card, .profile-card, .settings {
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: var(--btn-font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #1FA3CC;
+}
+
+h1 {
+  /* font-size: 48px; */
+  font-size: 3rem;
+  transition: all 0.5s;
+}
+
+h2 {
+  /* font-size: 36px; */
+  font-size: 2.25rem;
+  transition: all 0.5s;
+}
+
+.aa-text {
+  font-size: 1.75rem;
+}
+
+h3, p, .home-btn, .connect-btn {
+  /* font-size: 20px; */
+  font-size: 1.25rem;
+  transition: all 0.5s;
+}
+
+h4, .accept-btn, .send-btn, .go-back-btn {
+  /* font-size: 16px; */
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+/* These are for the buttons */
+.large-font {
+  font-size: 28px;
+}
+.medium-font {
+  font-size: 20px;
+}
+.small-font {
+  font-size: 16px;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--sidebar-color);
+  transition: all 0.5s;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: auto;
+  width: 30%;
+}
+
+/* .sidebar > *:not(:nth-child(1)):not(:nth-child(2)) {
+  margin-left: 1rem;
+} */
+
+.content-container > *:not(.settings-hr) {
+  margin-left: 1rem;
+}
+
+.logo-container {
+  background-color: #253238;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1em;
+}
+
+hr {
+  margin: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  height: 4px;
+  border: 0;
+  background-color: #3C6B80;
+}
+
+.palpalette-logo {
+  width: 70%;
+  height: 70%;
+}
+
+.content-container > *:not(.settings-hr) {
+  width: calc(100% - 2rem);
+}
+
+.home-btn {
+  /* width: 90%; */
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.friend-card {
+  background-color: var(--card-background-color);
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.friend-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 10px;
+}
+
+.friend-card, .friend-req-card, .profile-card {
+  padding-left: 1em;
+}
+
+.friend-card > p, .flex-gen-1 > p, .flex-gen-2 > p, .profile-card > p {
+  color: var(--card-text-color);
+}
+
+.friend-img, .user-img {
+  width: 48px;
+  height: 48px;
+}
+
+.friend-req-card {
+  background-color: var(--card-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2em;
+  padding-right: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cross-icon, .settings-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.settings-icon path {
+  /* color: var(--default-font-color); */
+  fill: var(--card-text-color);
+}
+
+.flex-gen-1, .flex-gen-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-gen-1 {
+  column-gap: 2em;
+}
+
+.accept-btn, .send-btn, .go-back-btn {
+  /* top, right, bottom, left */
+  padding: 10px 20px 10px 20px;
+}
+
+.nostyle-btn {
+  background-color: transparent;
+}
+
+.nostyle-btn:hover {
+  background-color: transparent;
+}
+
+.profile-grid-container {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+  justify-content: space-between;
+}
+
+.profile-card {
+  display: flex;
+  background-color: var(--card-background-color);
+  align-items: center;
+  column-gap: 2em;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.settings {
+  display: flex;
+  background-color: var(--card-background-color);
+  align-self: stretch;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.settings-hr {
+  margin-top: 30px;
+  background-color: #888888;
+}
+
+.font-size-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.font-size-container button {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-grow: 1;
+  /* transition: 0.5s; */
+}
+
+.font-size-container button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.themes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* row-gap: 20px; */
+  /* column-gap: 10px; */
+  gap: 10px;
+}
+
+.theme {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.aa-text {
+  width: 60%;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  padding-top: 20%;
+  padding-bottom: 20%;
+  font-weight: 700;
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6 {
+  border: 1px solid white;
+}
+
+#t1 {
+  background-color: white;
+  color: var(--t1-color)
+}
+#t1:hover {
+  background-color: rgb(220, 220, 220);
+  transition: 0.5s;
+}
+
+#t2 {
+  color: var(--t2-color);
+  background-color: #111111;
+}
+
+#t3, #t4, #t5, #t6 {
+  background-color: black;
+}
+
+#t2:hover, #t3:hover, #t4:hover, #t5:hover, #t6:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+#t3 {
+  color: var(--t3-color);
+}
+
+#t4 {
+  color: var(--t4-color);
+}
+
+#t5 {
+  color: var(--t5-color);
+}
+
+#t6 {
+  color: var(--t6-color);
+}
+
+.friend-card, .friend-req-card, .profile-card, .settings, #chat-messages, #message-input {
+  border-style: var(--border-style);
+  /* border-color: white; */
+  transition: all 0.5s;
+}
+
+.static-c {
+  color: white;
+}
+
+.discover-container {
+  background-color: var(--card-background-color);
+  margin-left: 30%; /* Push the main content to the right */
+  width: 70%;
+  padding-left: 3em;
+  padding-bottom: 10%;
+}
+
+.discover-section {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 100px;
+  flex-wrap: wrap;
+}
+
+.discover-card {
+  width: 80%;
+  background-color: var(--card-background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-style: var(--border-style);
+  /* top, right, bottom, left */
+  padding: 30px 40px 30px 40px;
+  border-radius: 10px;
+}
+
+.discover-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.connect-btn {
+  padding: 1em;
+}
+
+.card-text {
+  font-weight: 300;
+}
+
+/* @media screen and (max-width: 1700px) {
+  .sidebar {
+    width: 30%;
+  }
+
+  .discover-container {
+    margin-left: 30%;
+    width: 70%;
+  }
+} */
