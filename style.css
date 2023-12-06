@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+}
+
+header {
+    color: #ffffff;
+    font-size: 60px;
+    padding: 4%;
+}
+
+img {
+    width: 50px;  
+    margin: 0 0%; 
+}
+
+.button-container {
+    margin-top: 40px; 
+    text-align: center; 
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 2%;
+    border-radius: 10px;
+    background: #25C5F7;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+label {
+    color: #ffffff;
+}
