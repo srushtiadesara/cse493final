@@ -20,21 +20,21 @@
   <input type="checkbox" id="vehicle1" name="vehicle1" value="v1">
   <label for="vehicle1" id="m1"> I prefer using a screenreader</label><div>
   <input type="checkbox" id="vehicle2" name="vehicle2" value="v2">
-  <label for="vehicle2" id="m2"> I prefer wheelchair accessible area</label><div>
+  <label for="vehicle2" id="m2"> I prefer reduced noise</label><div>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="v3">
   <label for="vehicle3"> I prefer increased color contrast</label><div>
     <input type="checkbox" id="vehicle4" name="vehicle4" value="v4">
-  <label for="vehicle3"> I prefer reduced motion</label><div>
+  <label for="vehicle4"> I prefer reduced motion</label><div>
     <input type="checkbox" id="vehicle5" name="vehicle5" value="v5">
-  <label for="vehicle3"> I prefer reduced transparency</label><div>
+  <label for="vehicle5"> I prefer reduced transparency</label><div>
     <input type="checkbox" id="vehicle6" name="vehicle6" value="v6">
-  <label for="vehicle3"> I prefer on/off labels</label><div>
+  <label for="vehicle6"> I prefer on/off labels</label><div>
     <input type="checkbox" id="vehicle7" name="vehicle7" value="v7">
-  <label for="vehicle3"> I prefer zoom features</label><div>
+  <label for="vehicle7"> I prefer zoom features</label><div>
     <input type="checkbox" id="vehicle8" name="vehicle8" value="v8">
-  <label for="vehicle3"> I prefer large texts</label><div>
+  <label for="vehicle8"> I prefer large texts</label><div>
     <input type="checkbox" id="vehicle9" name="vehicle9" value="v9">
-  <label for="vehicle3"> I prefer audio communication</label><div>
+  <label for="vehicle9"> I prefer audio communication</label><div>
 
     <label for="input1" id="i1">Username</label>
     <input type="text" id="input1" name="input1" placeholder="Enter username">
@@ -48,8 +48,20 @@
         <label for="input3" id="i1">Pronouns</label>
     <input type="text" id="input4" name="input4" placeholder="she/her, they/them, he/him, etc">
 
-    <label for="input5" id="i1">Preferred Mode of Contact</label>
-    <input type="text" id="input5" name="input5" placeholder="Enter password">
+<label for="meetInPerson" class="contact-label">Preferred Mode of Contact</label>
+
+    <!-- Container for radio options -->
+    <div class="contact-options">
+        <input type="radio" id="meetInPerson" name="contactOption" class="contact-option" value="meetInPerson">
+        <label for="meetInPerson" class="contact-label">Meet in Person</label>
+
+        <input type="radio" id="stayOnline" name="contactOption" class="contact-option" value="stayOnline">
+        <label for="stayOnline" class="contact-label">Stay Online</label>
+
+        <input type="radio" id="notSure" name="contactOption" class="contact-option" value="notSure">
+        <label for="notSure" class="contact-label">Not Sure</label>
+    </div>
+
     <input type="text" id="input6" name="input6" placeholder="Enter social media, phone #, email, etc">
 
     <label for="input7" id="i1">Access Needs</label>
