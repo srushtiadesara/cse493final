@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="login.css">
+    
 </head>
 <body>
     <div class="logo-container">
@@ -71,11 +72,21 @@
     <textarea id="input12" name="input12" placeholder="Enter bio (optional)"></textarea>
 </div>
 
+    <div>
+    <img src="img/uploadicon.jpg" alt="Upload Icon">
+</div>
+        <label for="input13" id="i1">Alt Text For Profile Picture</label>
+    <input type="text" id="input13" name="input13" placeholder="Enter alt text for profile picture">
+        <label for="input14" id="i1">(Optional) You can record the audio introduction of yourself by clicking the recording button below</label>
+    <div>
+    <img src="img/recordbutton.jpg" alt="Record Button">
+</div>
 
-    <button>Log In</button>
-    
+
+    <button>Create Account</button>
+        <div id="line"></div>
+    <button id="signin_button">Sign In</button>
     <button id="back_button">Back</button>
-    
     <script>
         // JavaScript to handle the redirection
         document.getElementById('back_button').onclick = function() {
