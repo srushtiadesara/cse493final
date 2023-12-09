@@ -95,7 +95,7 @@
 </div>
 
 
-    <button>Create Account</button>
+    <button id="create_button">Create Account</button>
         <div id="line"></div>
     <button id="signin_button">Sign In</button>
     <button id="back_button">Back</button>
@@ -103,6 +103,14 @@
         // JavaScript to handle the redirection
         document.getElementById('back_button').onclick = function() {
             window.location.href = 'index.html';
+        };
+
+        document.getElementById('signin_button').onclick = function() {
+            window.location.href = 'login.html';
+        };
+
+        document.getElementById('create_button').onclick = function() {
+            window.location.href = 'home.html';
         };
     </script>
 </body>
