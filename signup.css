@@ -81,7 +81,7 @@ button {
 
 #input1,
 #input2, #input3, #input4, #input5, #input6, #input7,
-#input8, #input9, #input10, #input11 {
+#input8, #input9, #input10, #input11, #input13 {
     width: 550px;
     height: 40px;
     border-radius: 30px;
@@ -112,4 +112,10 @@ button {
 #input12::placeholder {
     vertical-align: top; /* Adjust the vertical alignment of the placeholder text */
 }
+
+#line {
+            border-top: 1px solid #FFFFFF; /* Black solid line */
+             width: 140%;
+            margin: 20px 0; /* Add space above and below the line */
+        }
 
