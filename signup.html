@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" {IF CLASSES}class="classes"{/IF}>
+   
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="img/palpalette.png" alt="PalPalette Logo" class="palpalette-logo">
+    </div>
+   
+    <img src="logo.png" alt="Logo">
+    <header id="create-new"><center>Create new account with text entry and audio</center></header>
+
+<h2>How do you want to communicate?</h2>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="v1">
+  <label for="vehicle1" id="m1"> I prefer using a screenreader</label><div>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="v2">
+  <label for="vehicle2" id="m2"> I prefer wheelchair accessible area</label><div>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="v3">
+  <label for="vehicle3"> I prefer increased color contrast</label><div>
+    <input type="checkbox" id="vehicle4" name="vehicle4" value="v4">
+  <label for="vehicle3"> I prefer reduced motion</label><div>
+    <input type="checkbox" id="vehicle5" name="vehicle5" value="v5">
+  <label for="vehicle3"> I prefer reduced transparency</label><div>
+    <input type="checkbox" id="vehicle6" name="vehicle6" value="v6">
+  <label for="vehicle3"> I prefer on/off labels</label><div>
+    <input type="checkbox" id="vehicle7" name="vehicle7" value="v7">
+  <label for="vehicle3"> I prefer zoom features</label><div>
+    <input type="checkbox" id="vehicle8" name="vehicle8" value="v8">
+  <label for="vehicle3"> I prefer large texts</label><div>
+    <input type="checkbox" id="vehicle9" name="vehicle9" value="v9">
+  <label for="vehicle3"> I prefer audio communication</label><div>
+
+    <label for="input1" id="i1">Username</label>
+    <input type="text" id="input1" name="input1" placeholder="Enter username">
+
+    <label for="input2" id="i1">Password</label>
+    <input type="text" id="input2" name="input2" placeholder="Enter password">
+
+    <label for="input3" id="i1">Gender</label>
+    <input type="text" id="input3" name="input3" placeholder="Enter gender">
+
+        <label for="input3" id="i1">Pronouns</label>
+    <input type="text" id="input4" name="input4" placeholder="she/her, they/them, he/him, etc">
+
+    <label for="input5" id="i1">Preferred Mode of Contact</label>
+    <input type="text" id="input5" name="input5" placeholder="Enter password">
+    <input type="text" id="input6" name="input6" placeholder="Enter social media, phone #, email, etc">
+
+    <label for="input7" id="i1">Access Needs</label>
+    <input type="text" id="input7" name="input7" placeholder="Enter password">
+
+        <label for="input8" id="i1">Age</label>
+    <input type="text" id="input8" name="input8" placeholder="Enter age">
+
+        <label for="input9" id="i1">Location</label>
+    <input type="text" id="input9" name="input9" placeholder="Enter location">
+
+        <label for="input10" id="i1">Hobbies</label>
+    <input type="text" id="input10" name="input10" placeholder="Enter hobbies">
+
+        <label for="input11" id="i1">Disability (optional)</label>
+    <input type="text" id="input11" name="input11" placeholder="Enter disability (optional)">
+
+<label for="input12" id="i1">Bio (optional)</label>
+<div class="custom-input">
+    <textarea id="input12" name="input12" placeholder="Enter bio (optional)"></textarea>
+</div>
+
+
+    <button>Log In</button>
+    
+    <button id="back_button">Back</button>
+    
+    <script>
+        // JavaScript to handle the redirection
+        document.getElementById('back_button').onclick = function() {
+            window.location.href = 'index.html';
+        };
+    </script>
+</body>
+</html>
