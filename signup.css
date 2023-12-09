@@ -119,3 +119,36 @@ button {
             margin: 20px 0; /* Add space above and below the line */
         }
 
+/* Container for radio options */
+.contact-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+/* Style for each radio option */
+.contact-option {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style for selected radio option */
+.contact-option:checked {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+/* Additional styles if needed */
+.contact-label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+}
