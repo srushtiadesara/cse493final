@@ -205,9 +205,9 @@ nowrap-label {
     align-items: center;
     font-size: 40px;
     cursor: pointer;
-    margin-right: 2px;
+    margin-right: 1px; /* Adjust the margin to reduce spacing */
     transform: scale(2); /* Adjust the scale factor as needed */
-        white-space: nowrap;
+    white-space: nowrap;
 }
 
 /* Style for selected radio option */
@@ -220,14 +220,13 @@ nowrap-label {
 #record {
     width: 200px;
     height: 30px;
-    padding-right: 160px; 
+    padding-right: 160px;
 }
-
 
 /* Additional styles if needed */
 .contact-label {
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Adjust the margin to reduce spacing */
     display: block;
     font-size: 40px;
-        white-space: nowrap;
+    white-space: nowrap;
 }
