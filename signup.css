@@ -232,10 +232,11 @@ nowrap-label {
     display: block;
     font-size: 40px;
     white-space: nowrap;
+    background-color: #349888;
 }
 
 #record {
-    width: 400px; /* Adjust the width to your desired size */
+    width: 800px; /* Adjust the width to your desired size */
     height: auto; /* Maintain the aspect ratio */
 }
 
