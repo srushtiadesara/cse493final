@@ -27,7 +27,7 @@ input[type="checkbox"] {
     align-items: center; /* Align items vertically in the flex container */
     margin-right: 20px;
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 img {
@@ -40,7 +40,7 @@ img {
 
 /* Correct the styles for the label */
 label {
-    color: white;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
