@@ -110,6 +110,7 @@ button {
     font-size: 40px;
     background: #25C5F7;
     padding-right: 160px; 
+    padding: 10px;
 }
 
 #back_button {
