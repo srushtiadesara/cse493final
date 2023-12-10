@@ -161,6 +161,11 @@ button {
     margin: 10px auto;
 }
 
+label.nowrap-label {
+    white-space: nowrap;
+}
+
+
 /* Style for each radio option */
 /*
 .contact-option {
