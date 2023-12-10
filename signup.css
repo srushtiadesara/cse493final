@@ -98,19 +98,19 @@ input[type="checkbox"] {
 }
 
 
-
 button {
-    font-size: 40px;
-    /* margin: 2% 45%; */
-    border-radius: 10px;
-    background: #25C5F7;
     width: 550px;
     height: 40px;
-    text-align: center;
-    display: flex;
+    border-radius: 10px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 0% 48%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    background: #25C5F7;
+    padding-right: 160px; 
+    padding: 10px;
 }
 
 #back_button {
@@ -129,7 +129,7 @@ button {
 
 #input1,
 #input2, #input3, #input4, #input5, #input6, #input7,
-#input8, #input9, #input10, #input11, #input13, #input14 {
+#input8, #input9, #input10, #input11, #input13 {
     width: 550px;
     height: 40px;
     border-radius: 30px;
@@ -168,7 +168,6 @@ button {
             border-top: 1px solid #FFFFFF; /* Black solid line */
              width: 140%;
             margin: 20px 0; /* Add space above and below the line */
-            padding: 8px;
         }
 
 /* Container for radio options */
@@ -232,14 +231,7 @@ nowrap-label {
     display: block;
     font-size: 40px;
     white-space: nowrap;
-    background-color: #349888;
 }
-
-#record {
-    width: 800px; /* Adjust the width to your desired size */
-    height: auto; /* Maintain the aspect ratio */
-}
-
 
 input[type="checkbox"],
 #i1,
@@ -268,41 +260,5 @@ button,
     display: inline-block;
     margin: 0 auto;
     text-align: center;
-}
-
-#record {
-    margin-bottom: 20px; /* Adjust the value to the amount of space you want */
-}
-
-/* Center all elements */
-body, header, h2, form, input[type="checkbox"], #i1, img, label, button, #create-new, #input1, #input2, #input3, #input4, #input5, #input6, #input7, #input8, #input9, #input10, #input11, #input13, #input14, #input12, #line, .contact-options, .contact-option, #record, .contact-label {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* Center button horizontally and add space around it */
-button {
-    font-size: 40px;
-    border-radius: 10px;
-    background: #25C5F7;
-    width: 550px;
-    height: 40px;
-    margin: 2% auto;
-}
-
-/* Increase image size to full width */
-#record {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-/* Add space around the line */
-#line {
-    border-top: 1px solid #FFFFFF;
-    width: 140%;
-    margin: 20px 0;
-    padding: 8px;
 }
 
