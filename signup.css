@@ -234,6 +234,12 @@ nowrap-label {
     white-space: nowrap;
 }
 
+#record {
+    width: 400px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
 input[type="checkbox"],
 #i1,
 img,
