@@ -153,6 +153,7 @@ button {
 }
 
 /* Style for each radio option */
+/*
 .contact-option {
     width: 150px;
     height: 40px;
@@ -166,11 +167,35 @@ button {
     margin-right: 10px;
 }
 
-/* Style for selected radio option */
+/* Style for selected radio option 
 .contact-option:checked {
     background-color: #3498db;
     color: #ffffff;
 }
+*/
+/* Style for each radio option */
+.contact-option {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    transform: scale(2); /* Adjust the scale factor as needed */
+}
+
+/* Style for selected radio option */
+.contact-option:checked {
+    background-color: #3498db;
+    color: #ffffff;
+    transform: scale(2); /* Adjust the scale factor as needed */
+}
+
+
 
 /* Additional styles if needed */
 .contact-label {
