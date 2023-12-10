@@ -98,19 +98,19 @@ input[type="checkbox"] {
 }
 
 
+
 button {
+    font-size: 40px;
+    /* margin: 2% 45%; */
+    border-radius: 10px;
+    background: #25C5F7;
     width: 550px;
     height: 40px;
-    border-radius: 10px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
-    text-align: center;
-    font-size: 40px;
-    background: #25C5F7;
-    padding-right: 160px; 
-    padding: 10px;
+    margin: 0% 48%;
 }
 
 #back_button {
