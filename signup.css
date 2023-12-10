@@ -32,12 +32,23 @@ input[type="checkbox"] {
     width: 20px;
     height: 40px;
     display: inline-flex;
-    align-items: flex-start; /* Adjust alignment to start */
+    align-items: center; /* Adjust alignment to start */
     margin-right: 5px;
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
 }
 
+
+/* Adjust the vertical alignment of the checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center; /* Set it back to center */
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
 
 
 #i1 {
@@ -92,6 +103,8 @@ label {
     
  
 }
+
+
 
 /* Make checkboxes inline elements */
 input[type="checkbox"] {
@@ -264,23 +277,5 @@ button,
     display: inline-block;
     margin: 0 auto;
     text-align: center;
-}
-
-label {
-    display: inline-flex;
-    align-items: center;
-    margin-right: 5px;
-    color: white;
-    font-size: 40px;
-    white-space: nowrap;
-}
-
-input[type="checkbox"] {
-    width: 20px;
-    height: 40px;
-    display: inline-block;
-    align-items: center;
-    margin-right: 5px;
-    font-size: 40px;
 }
 
