@@ -64,15 +64,16 @@ img {
     padding-left: 0px; 
 }
 */
-
 label {
     display: inline-flex;
     align-items: center;
-    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
-     font-family: 'Nunito', sans-serif;
-    color:white;
-    font-size: 40px; /* Add 'px' to the font-size value */
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: nowrap; /* Add this line to prevent text wrapping */
 }
+
 
 button {
     width: 550px;
