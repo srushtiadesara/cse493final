@@ -75,7 +75,7 @@ label {
     font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 40px;
-   /* white-space: nowrap;*/ /* Prevent text wrapping */
+    white-space: nowrap;*/ /* Prevent text wrapping */
 }
 
 /* Make checkboxes inline elements */
