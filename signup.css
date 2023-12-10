@@ -223,10 +223,6 @@ nowrap-label {
     transform: scale(2); /* Adjust the scale factor as needed */
 }
 
-#record {
-    width: 600px;
-    height:200px;
-}
 
 /* Additional styles if needed */
 .contact-label {
