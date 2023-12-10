@@ -39,16 +39,6 @@ img {
 
 
 /* Correct the styles for the label */
-label {
-    color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    text-align: center;
-    font-size: 20px;
-}
-
 
 
     
@@ -170,3 +160,17 @@ button {
     display: block;
     font-size: 20px;
 }
+
+label {
+    color: #000000;
+    display: flex;
+/*
+        align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+    */
+    font-size: 20px;
+}
+
+
