@@ -101,21 +101,21 @@ input[type="checkbox"] {
 
 button {
     font-size: 40px;
-    /* margin: 2% 45%; */
     border-radius: 10px;
     background: #25C5F7;
-    width: 550px;
+    width: 80%; /* Use a percentage for responsive width */
     height: 40px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0% 48%;
+    margin: 2% auto; /* Use auto for horizontal centering */
 }
 
 #back_button {
     font-size: 40px;
 }
+
 
 #create-new {
     display: flex;
@@ -235,7 +235,7 @@ nowrap-label {
 }
 
 #record {
-    width: 800px; /* Adjust the width to your desired size */
+    width: 25%; ; /* Adjust the width to your desired size */
     height: auto; /* Maintain the aspect ratio */
 }
 
