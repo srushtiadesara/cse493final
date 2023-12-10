@@ -191,7 +191,7 @@ nowrap-label {
 */
 /* Style for each radio option */
 .contact-option {
-    width: 250px;
+    width: 50px;
     height: 35px;
     border-radius: 12px;
     display: inline-flex;
