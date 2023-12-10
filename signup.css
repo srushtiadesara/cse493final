@@ -86,7 +86,7 @@ button {
     justify-content: center;
     margin: 20px auto;
     text-align: center;
-    font-size: 16px;
+    font-size: 40px;
     background: #25C5F7;
     padding-right: 160px; 
 }
@@ -116,7 +116,7 @@ button {
     margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
-    margin-bottom: 0 auto;
+    margin-bottom: 15px; 
     padding-right: 160px; 
     white-space: nowrap;
 }
@@ -133,6 +133,7 @@ button {
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
      white-space: nowrap;
+     margin-bottom: 10px; 
 }
 
 #input12::placeholder {
@@ -175,7 +176,7 @@ button {
 */
 /* Style for each radio option */
 .contact-option {
-    width: 150px;
+    width: 550px;
     height: 40px;
     border-radius: 30px;
     display: inline-flex;
