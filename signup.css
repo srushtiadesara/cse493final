@@ -25,6 +25,8 @@ form {
 }
 
 input[type="checkbox"] {
+     width: 40px; /* Adjust the width */
+    height: 40px; /* Adjust the height */
     display: inline-flex;
     align-items: center;
     margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
@@ -99,11 +101,9 @@ button {
     justify-content: center;
     margin: 20px auto; /* Center the input horizontally and provide margin */
     text-align: center;
-    font-size: 60px;
-    background: #25C5F7; /* Add 'px' to the font-size value */
-
+    font-size: 50px;
+    background: #25C5F7 !important;
 }
-
 
 #input1,
 #input2, #input3, #input4, #input5, #input6, #input7,
@@ -178,21 +178,19 @@ button {
     width: 150px;
     height: 40px;
     border-radius: 30px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     font-size: 40px;
     cursor: pointer;
     margin-right: 10px;
-    transform: scale(2); /* Adjust the scale factor as needed */
+    transform: scale(6); /* Adjust the scale factor as needed */
 }
 
 /* Style for selected radio option */
 .contact-option:checked {
     background-color: #3498db;
     color: #ffffff;
-    transform: scale(2); /* Adjust the scale factor as needed */
+    transform: scale(6); /* Adjust the scale factor as needed */
 }
 
 
