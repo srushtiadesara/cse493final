@@ -1,9 +1,12 @@
-body {
-    background-color: #000000;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-}
+/* Import Nunito from Google Fonts (or any other CDN) */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+/* Apply Nunito font to body */
+body {
+  background-color: #000000;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
 
 h2 {
     color: #ffffff;
