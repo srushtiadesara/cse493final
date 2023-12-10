@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: #000000;
+    
 }
 
 
 h2 {
-    color: white;
+    color: #ffffff;
     text-align: center;
      font-family: 'Nunito', sans-serif;
 }
@@ -28,7 +29,7 @@ input[type="checkbox"] {
      font-family: 'Nunito', sans-serif;
 }
 
-#i1, #m1, #m2 {
+#i1 {
  display: flex; /* Make sure the container is a flex container */
     align-items: center; /* Align items vertically in the flex container */
     margin-right: 20px;
@@ -45,20 +46,17 @@ img {
 
 
 /* Correct the styles for the label */
-
-
-    
-    /*
-    display: inline-block; /* Set display to inline-block 
-    vertical-align: middle; /* Align the label vertically with the checkbox 
+label {
+    color: #ffffff;
+    display: inline-block; /* Set display to inline-block */
+    vertical-align: middle; /* Align the label vertically with the checkbox */
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 20px; /* Add 'px' to the font-size value 
-    margin: 10px 0; /* Add margin as needed 
+    font-size: 20px; /* Add 'px' to the font-size value */
+    margin: 10px 0; /* Add margin as needed */
     padding-left: 0px; 
-    */
-
+}
 
 
 
@@ -166,17 +164,3 @@ button {
     display: block;
     font-size: 20px;
 }
-
-label {
-    color: #000000;
-    display: flex;
-/*
-        align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-    text-align: center;
-    */
-    font-size: 20px;
-}
-
-
