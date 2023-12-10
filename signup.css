@@ -40,15 +40,26 @@ img {
 
 /* Correct the styles for the label */
 label {
-    color: #ffffff;
-    display: inline-block; /* Set display to inline-block */
-    vertical-align: middle; /* Align the label vertically with the checkbox */
+    color: white;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto; /* Center the input horizontally and provide margin */
+    text-align: center;
+    font-size: 20px; /* Add 'px' to the font-size value */
+    margin-bottom: 0 auto;
+    padding-right: 160px; 
+    
+    /*
+    display: inline-block; /* Set display to inline-block 
+    vertical-align: middle; /* Align the label vertically with the checkbox 
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 20px; /* Add 'px' to the font-size value */
-    margin: 10px 0; /* Add margin as needed */
+    font-size: 20px; /* Add 'px' to the font-size value 
+    margin: 10px 0; /* Add margin as needed 
     padding-left: 0px; 
+    */
 }
 
 
