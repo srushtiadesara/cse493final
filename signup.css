@@ -71,10 +71,12 @@ img {
 label {
     display: inline-flex;
     align-items: center;
-    margin-right: 10px; /* Adjust the right margin to control the horizontal distance */
     font-family: 'Nunito', sans-serif;
+        display: inline-flex;
+    align-items: center;
+    margin-right: 5px; 
     color: white;
-        justify-content: center;
+    justify-content: center;
     font-size: 40px;
     white-space: nowrap;*/ /* Prevent text wrapping */
 }
@@ -199,6 +201,7 @@ nowrap-label {
     cursor: pointer;
     margin-right: 10px;
     transform: scale(3); /* Adjust the scale factor as needed */
+        white-space: nowrap;
 }
 
 /* Style for selected radio option */
@@ -215,4 +218,5 @@ nowrap-label {
     margin-bottom: 10px;
     display: block;
     font-size: 40px;
+        white-space: nowrap;
 }
