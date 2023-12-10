@@ -102,7 +102,7 @@ button {
     width: 550px;
     height: 40px;
     border-radius: 10px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px auto;
@@ -168,6 +168,7 @@ button {
             border-top: 1px solid #FFFFFF; /* Black solid line */
              width: 140%;
             margin: 20px 0; /* Add space above and below the line */
+            padding: 8px;
         }
 
 /* Container for radio options */
