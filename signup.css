@@ -27,8 +27,8 @@ form {
 }
 
 input[type="checkbox"] {
- /*    width: 40px; /* Adjust the width */
-  /*  height: 40px; /* Adjust the height */
+    width: 20px; /* Adjust the width */
+    height: 40px; /* Adjust the height */
     display: inline-flex;
     align-items: center;
     margin-right: 0px; /* Adjust the spacing between the checkbox and the label */
@@ -105,7 +105,7 @@ button {
 }
 
 #back_button {
-    font-size: 15px;
+    font-size: 40px;
 }
 
 #create-new {
