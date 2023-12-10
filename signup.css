@@ -126,7 +126,7 @@ button {
     border-radius: 30px;
     display: inline-flex;
     align-items: center;
-    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
+    margin-right: 10px; /* Adjust the spacing between the checkbox and the label */
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
     margin-bottom: 15px; 
@@ -141,7 +141,7 @@ button {
     padding-right: 160px;
     display: inline-flex;
     align-items: center;
-    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
+    margin-right: 10px; /* Adjust the spacing between the checkbox and the label */
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
      white-space: nowrap;
