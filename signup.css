@@ -224,9 +224,8 @@ nowrap-label {
 }
 
 #record {
-    width: 200px;
-    height: 30px;
-    padding-right: 160px;
+    width: 600px;
+    height:200px;
 }
 
 /* Additional styles if needed */
