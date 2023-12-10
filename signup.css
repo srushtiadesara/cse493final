@@ -120,13 +120,14 @@ button {
     border-radius: 10px;
     background: #25C5F7;
     width: 100%; /* Use 100% width to fill the container */
-    height: 40px;
+    height: 70px;
     text-align: center;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin: 20px 0; /* Adjust the top and bottom margin */
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 #back_button {
