@@ -41,14 +41,15 @@ img {
 /* Correct the styles for the label */
 label {
     color: white;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px auto; /* Center the input horizontally and provide margin */
+    margin: 10px auto;
     text-align: center;
-    font-size: 20px; /* Add 'px' to the font-size value */
-    margin-bottom: 0 auto;
-    padding-right: 160px; 
+    font-size: 20px;
+    padding-right: 0; /* Remove unnecessary padding */
+}
+
     
     /*
     display: inline-block; /* Set display to inline-block 
@@ -60,7 +61,7 @@ label {
     margin: 10px 0; /* Add margin as needed 
     padding-left: 0px; 
     */
-}
+
 
 
 
