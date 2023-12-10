@@ -161,7 +161,7 @@ button {
     margin: 10px auto;
 }
 
-label.nowrap-label {
+nowrap-label {
     white-space: nowrap;
 }
 
