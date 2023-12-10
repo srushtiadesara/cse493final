@@ -39,8 +39,8 @@ img {
 
 
 /* Correct the styles for the label */
-form label {
-    color: #ffffff;
+label {
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
