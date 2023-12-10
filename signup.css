@@ -66,14 +66,22 @@ img {
     padding-left: 0px; 
 }
 */
+
+/* Adjust the vertical distance between input and label */
 label {
     display: inline-flex;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 10px; /* Adjust the right margin to control the horizontal distance */
     font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 40px;
-    white-space: nowrap; /* Add this line to prevent text wrapping */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Make checkboxes inline elements */
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px; /* Adjust the right margin to control the horizontal distance */
 }
 
 
