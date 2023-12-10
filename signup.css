@@ -195,12 +195,12 @@ nowrap-label {
 .contact-option {
     width: 10px;
     height: 35px;
-    border-radius: 10px;
+    border-radius: 0px;
     display: inline-flex;
     align-items: center;
     font-size: 40px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 2px;
     transform: scale(2); /* Adjust the scale factor as needed */
         white-space: nowrap;
 }
