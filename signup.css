@@ -22,7 +22,7 @@ input[type="checkbox"] {
      font-family: 'Nunito', sans-serif;
 }
 
-#i1 {
+#i1, #m1, #m2 {
  display: flex; /* Make sure the container is a flex container */
     align-items: center; /* Align items vertically in the flex container */
     margin-right: 20px;
