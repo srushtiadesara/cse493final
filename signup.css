@@ -15,6 +15,7 @@ h2 {
     text-align: center;
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
+    text-align: center;
 }
 
 form {
@@ -22,14 +23,15 @@ form {
     margin: 0 auto;
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
+    text-align: center;
 }
 
 input[type="checkbox"] {
-     width: 40px; /* Adjust the width */
-    height: 40px; /* Adjust the height */
+ /*    width: 40px; /* Adjust the width */
+  /*  height: 40px; /* Adjust the height */
     display: inline-flex;
     align-items: center;
-    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
+    margin-right: 0px; /* Adjust the spacing between the checkbox and the label */
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
 }
@@ -199,7 +201,7 @@ nowrap-label {
     font-size: 40px;
     cursor: pointer;
     margin-right: 10px;
-    transform: scale(3); /* Adjust the scale factor as needed */
+    transform: scale(2); /* Adjust the scale factor as needed */
         white-space: nowrap;
 }
 
@@ -207,7 +209,7 @@ nowrap-label {
 .contact-option:checked {
     background-color: #3498db;
     color: #ffffff;
-    transform: scale(3); /* Adjust the scale factor as needed */
+    transform: scale(2); /* Adjust the scale factor as needed */
 }
 
 
