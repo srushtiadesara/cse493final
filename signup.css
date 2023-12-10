@@ -190,22 +190,22 @@ nowrap-label {
 */
 /* Style for each radio option */
 .contact-option {
-    width: 550px;
-    height: 40px;
+    width: 250px;
+    height: 35px;
     border-radius: 30px;
     display: inline-flex;
     align-items: center;
     font-size: 40px;
     cursor: pointer;
     margin-right: 10px;
-    transform: scale(6); /* Adjust the scale factor as needed */
+    transform: scale(3); /* Adjust the scale factor as needed */
 }
 
 /* Style for selected radio option */
 .contact-option:checked {
     background-color: #3498db;
     color: #ffffff;
-    transform: scale(6); /* Adjust the scale factor as needed */
+    transform: scale(3); /* Adjust the scale factor as needed */
 }
 
 
