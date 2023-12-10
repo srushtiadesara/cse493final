@@ -220,7 +220,6 @@ nowrap-label {
 
 /* Style for selected radio option */
 .contact-option:checked {
-    background-color: #3498db;
     color: #ffffff;
     transform: scale(2); /* Adjust the scale factor as needed */
 }
@@ -232,7 +231,7 @@ nowrap-label {
     display: block;
     font-size: 40px;
     white-space: nowrap;
-    background-color: #349888;
+    background-color: #052925;
 }
 
 #record {
