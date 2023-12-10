@@ -19,7 +19,7 @@ h2 {
 }
 
 form {
-    max-width: 400px;
+    max-width: 100%;
     margin: 0 auto;
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
