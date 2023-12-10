@@ -74,6 +74,7 @@ label {
     margin-right: 10px; /* Adjust the right margin to control the horizontal distance */
     font-family: 'Nunito', sans-serif;
     color: white;
+        justify-content: center;
     font-size: 40px;
     white-space: nowrap;*/ /* Prevent text wrapping */
 }
