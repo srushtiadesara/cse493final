@@ -101,24 +101,21 @@ input[type="checkbox"] {
 
 button {
     font-size: 40px;
+    /* margin: 2% 45%; */
     border-radius: 10px;
     background: #25C5F7;
-    width: 550%; /* Use a percentage for responsive width */
-    height: 60px;
+    width: 550px;
+    height: 40px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15%; /* Use auto for horizontal centering */
+    margin: 0% 48%;
 }
-
-
-
 
 #back_button {
     font-size: 40px;
 }
-
 
 #create-new {
     display: flex;
@@ -223,6 +220,7 @@ nowrap-label {
 
 /* Style for selected radio option */
 .contact-option:checked {
+    background-color: #3498db;
     color: #ffffff;
     transform: scale(2); /* Adjust the scale factor as needed */
 }
@@ -234,11 +232,11 @@ nowrap-label {
     display: block;
     font-size: 40px;
     white-space: nowrap;
-    background-color: #052925;
+    background-color: #349888;
 }
 
 #record {
-    width: 25%; ; /* Adjust the width to your desired size */
+    width: 800px; /* Adjust the width to your desired size */
     height: auto; /* Maintain the aspect ratio */
 }
 
@@ -283,10 +281,19 @@ body, header, h2, form, input[type="checkbox"], #i1, img, label, button, #create
     text-align: center;
 }
 
+/* Center button horizontally and add space around it */
+button {
+    font-size: 40px;
+    border-radius: 10px;
+    background: #25C5F7;
+    width: 550px;
+    height: 40px;
+    margin: 2% auto;
+}
 
 /* Increase image size to full width */
 #record {
-    width: 25%;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
