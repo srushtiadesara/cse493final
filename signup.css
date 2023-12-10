@@ -26,13 +26,15 @@ form {
     text-align: center;
 }
 
+
+/* Adjust the vertical alignment of the checkbox */
 input[type="checkbox"] {
-    width: 20px; /* Adjust the width */
-    height: 40px; /* Adjust the height */
-    display: inline-block;
-    align-items: center;
-    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
-     font-family: 'Nunito', sans-serif;
+    width: 20px;
+    height: 40px;
+    display: inline-flex;
+    align-items: flex-start; /* Adjust alignment to start */
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
     font-size: 40px;
 }
 
