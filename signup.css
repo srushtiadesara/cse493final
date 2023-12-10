@@ -1,12 +1,10 @@
 
-
 body {
     background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 header {
     color: #ffffff;
     font-size: 70px;
@@ -31,12 +29,14 @@ form {
 input[type="checkbox"] {
     width: 20px; /* Adjust the width */
     height: 40px; /* Adjust the height */
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
-    margin-right: 0px; /* Adjust the spacing between the checkbox and the label */
+    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
      font-family: 'Nunito', sans-serif;
     font-size: 40px;
 }
+
+
 
 #i1 {
 
@@ -98,24 +98,26 @@ input[type="checkbox"] {
 }
 
 
+
+
 button {
-    width: 550px;
-    height: 40px;
+    font-size: 40px;
     border-radius: 10px;
-    display: inline-flex;
+    background: #25C5F7;
+    width: 100%; /* Use 100% width to fill the container */
+    height: 40px;
+    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
-    text-align: center;
-    font-size: 40px;
-    background: #25C5F7;
-    padding-right: 160px; 
+    margin: 20px 0; /* Adjust the top and bottom margin */
     padding: 10px;
 }
 
 #back_button {
     font-size: 40px;
 }
+
 
 #create-new {
     display: flex;
@@ -260,5 +262,23 @@ button,
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+    color: white;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 40px;
 }
 
