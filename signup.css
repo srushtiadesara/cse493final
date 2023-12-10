@@ -6,23 +6,28 @@ body {
 h2 {
     color: #ffffff;
     text-align: center;
+     font-family: 'Nunito', sans-serif;
 }
 
 form {
     max-width: 400px;
     margin: 0 auto;
+     font-family: 'Nunito', sans-serif;
 }
 
 input[type="checkbox"] {
     display: inline-flex;
     align-items: center;
     margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
+     font-family: 'Nunito', sans-serif;
 }
 
 #i1 {
  display: flex; /* Make sure the container is a flex container */
     align-items: center; /* Align items vertically in the flex container */
     margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 img {
