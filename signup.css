@@ -1,6 +1,6 @@
 * {
   font-family: 'Nunito', sans-serif;
-  color: var(--default-font-color)
+  color: white;
     font-size: 20px;
 }
 
@@ -10,7 +10,7 @@ body {
 
 
 h2 {
-    color: #ffffff;
+    color: white;
     text-align: center;
      font-family: 'Nunito', sans-serif;
 }
@@ -33,7 +33,7 @@ input[type="checkbox"] {
     align-items: center; /* Align items vertically in the flex container */
     margin-right: 20px;
     font-family: 'Nunito', sans-serif;
-    color: #ffffff;
+    color: white;
 }
 
 img {
