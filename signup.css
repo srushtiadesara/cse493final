@@ -46,6 +46,7 @@ input[type="checkbox"] {
     font-size: 40px;
     color: white;
     padding-right: 160px; 
+     text-align: center;
 }
 
 img {
@@ -81,7 +82,8 @@ label {
     color: white;
     justify-content: center;
     font-size: 40px;
-    white-space: nowrap;*/ /* Prevent text wrapping */
+    white-space: nowrap; /* Prevent text wrapping */
+    
     padding-right: 160px; 
 }
 
