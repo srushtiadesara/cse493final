@@ -87,7 +87,7 @@ h2 {
   font-size: 1.75rem;
 }
 
-h3, p, .home-btn, .connect-btn {
+h3, p, .home-btn, .connect-btn, ul, li {
   /* font-size: 20px; */
   font-size: 1.25rem;
   transition: all 0.5s;
@@ -97,6 +97,15 @@ h4, .accept-btn, .send-btn, .go-back-btn {
   /* font-size: 16px; */
   font-size: 1rem;
   transition: all 0.5s;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 40px;
 }
 
 /* These are for the buttons */
