@@ -1,0 +1,282 @@
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    color: #ffffff;
+    font-size: 70px;
+    padding: 2%;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+form {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* Adjust the vertical alignment of the checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center; /* Adjust alignment to start */
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+
+/* Adjust the vertical alignment of the checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center; /* Set it back to center */
+    margin-right: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+
+#i1 {
+
+
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px; /* Adjust the spacing between the checkbox and the label */
+     font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: white; 
+     text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+ max-width: 100%; 
+}
+
+img {
+    width: 500px;
+    margin: 0;
+}
+
+
+
+
+/* Correct the styles for the label */
+/*label {
+    color: #ffffff;
+    display: inline-block; /* Set display to inline-block 
+    vertical-align: middle; /* Align the label vertically with the checkbox 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Add 'px' to the font-size value 
+    margin: 10px 0; /* Add margin as needed 
+    padding-left: 0px; 
+}
+*/
+
+/* Adjust the vertical distance between input and label */
+label {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+        display: inline-flex;
+    align-items: center;
+    margin-right: 5px; 
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+    white-space: nowrap; /* Prevent text wrapping */
+    
+ 
+}
+
+
+
+/* Make checkboxes inline elements */
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px; /* Adjust the right margin to control the horizontal distance */
+}
+
+
+
+
+button {
+    font-size: 40px;
+    border-radius: 10px;
+    background: #25C5F7;
+    width: 100%; /* Use 100% width to fill the container */
+    height: 70px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Adjust the top and bottom margin */
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#back_button {
+    font-size: 40px;
+}
+
+
+#create-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Center the input horizontally and provide margin */
+    text-align: center;
+    font-size: 50px;
+    background: #25C5F7 !important;
+}
+
+#input1,
+#input2, #input3, #input4, #input5, #input6, #input7,
+#input8, #input9, #input10, #input11, #input13 {
+    width: 550px;
+    height: 40px;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the spacing between the checkbox and the label */
+     font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px; 
+    white-space: nowrap;
+    padding-right: 160px; 
+}
+
+ #input12 {
+    width: 550px;
+    height: 100px; /* Increase the height for more space */
+    border-radius: 30px;
+       margin-bottom: 8 auto;
+    padding-right: 160px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the spacing between the checkbox and the label */
+     font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+     white-space: nowrap;
+     margin-bottom: 10px; 
+     padding-right: 160px; 
+}
+
+#input12::placeholder {
+    vertical-align: top; /* Adjust the vertical alignment of the placeholder text */
+    padding-right: 160px; 
+}
+
+#line {
+            border-top: 1px solid #FFFFFF; /* Black solid line */
+             width: 140%;
+            margin: 20px 0; /* Add space above and below the line */
+        }
+
+/* Container for radio options */
+.contact-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+nowrap-label {
+    white-space: nowrap;
+}
+
+
+/* Style for each radio option */
+/*
+.contact-option {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style for selected radio option 
+.contact-option:checked {
+    background-color: #3498db;
+    color: #ffffff;
+}
+*/
+/* Style for each radio option */
+.contact-option {
+    width: 10px;
+    height: 35px;
+    border-radius: 0px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 1px; /* Adjust the margin to reduce spacing */
+    transform: scale(2); /* Adjust the scale factor as needed */
+    white-space: nowrap;
+}
+
+/* Style for selected radio option */
+.contact-option:checked {
+    background-color: #3498db;
+    color: #ffffff;
+    transform: scale(2); /* Adjust the scale factor as needed */
+}
+
+
+/* Additional styles if needed */
+.contact-label {
+    margin-bottom: 5px; /* Adjust the margin to reduce spacing */
+    display: block;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+input[type="checkbox"],
+#i1,
+img,
+label,
+button,
+#create-new,
+#input1,
+#input2,
+#input3,
+#input4,
+#input5,
+#input6,
+#input7,
+#input8,
+#input9,
+#input10,
+#input11,
+#input13,
+#input12,
+#line,
+.contact-options,
+.contact-option,
+#record,
+.contact-label {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="nunito.css"> <!-- Load font stylesheet first -->
+      <link rel="stylesheet" href="signup.css">  <!-- Then, load custom stylesheet -->
+</head>
+    
+<body>
+    <div class="logo-container">
+        <img src="img/palpalette.png" alt="PalPalette Logo" class="palpalette-logo">
+    </div>
+   
+    <img src="logo.png" alt="Logo">
+    <header id="create-new"><center>Create new account with text entry and audio</center></header>
+
+<h2>How do you want to communicate?</h2>
+
+ <form>
+  <input type="checkbox" class="nowrap-label" id="i1" name="vehicle1" value="v1">
+  <label for="vehicle1" class="nowrap-label"> I prefer using a screenreader</label><br>
+  <input type="checkbox" class="nowrap-label" id="i2" name="vehicle2" value="v2">
+  <label for="vehicle2" class="nowrap-label"> I prefer reduced noise</label><br>
+  <input type="checkbox" class="nowrap-label"  id="i3" name="vehicle3" value="v3">
+  <label for="vehicle3" class="nowrap-label"> I prefer increased color contrast</label><br>
+    <input type="checkbox" class="nowrap-label"  id="i4" name="vehicle4" value="v4">
+  <label for="vehicle4" class="nowrap-label"> I prefer reduced motion</label><br> 
+    <input type="checkbox" class="nowrap-label" id="i5" name="vehicle5" value="v5">
+  <label for="vehicle5" class="nowrap-label"> I prefer reduced transparency</label><br>
+    <input type="checkbox" class="nowrap-label"  id="i6" name="vehicle6" value="v6">
+  <label for="vehicle6" class="nowrap-label"> I prefer on/off labels</label><br> 
+    <input type="checkbox" class="nowrap-label"  id="i7" name="vehicle7" value="v7">
+  <label for="vehicle7" class="nowrap-label"> I prefer zoom features</label><br>
+    <input type="checkbox" class="nowrap-label"  id="i8" name="vehicle8" value="v8">
+  <label for="vehicle8" class="nowrap-label"> I prefer large texts</label><br>
+    <input type="checkbox" class="nowrap-label"  id="i9" name="vehicle9" value="v9">
+  <label for="vehicle9" class="nowrap-label"> I prefer audio communication</label><br>
+  </form>
+      <div>
+          
+      </div>
+<br>
+    <h2>Please Introduce Yourself</h2>
+
+    <label for="input1" id="i1">Username</label>
+    <input type="text" id="input1" name="input1" placeholder="Enter username"><br>
+
+    <label for="input2" id="i1">Password</label>
+    <input type="text" id="input2" name="input2" placeholder="Enter password"><br>
+
+    <label for="input3" id="i1">Gender</label>
+    <input type="text" id="input3" name="input3" placeholder="Enter gender"><br>
+
+        <label for="input3" id="i1">Pronouns</label>
+    <input type="text" id="input4" name="input4" placeholder="she/her, they/them, he/him, etc"><br>
+    
+        <label for="input8" id="i1">Age</label>
+    <input type="text" id="input8" name="input8" placeholder="Enter age"><br>
+
+
+<label for="meetInPerson" class="contact-label">Preferred Mode of Contact</label><br>
+
+    <!-- Container for radio options -->
+    <div class="contact-options">
+        <input type="radio" id="meetInPerson" name="contactOption" class="contact-option" value="meetInPerson">
+        <label for="meetInPerson" class="contact-label">Meet in Person</label>
+
+        <input type="radio" id="stayOnline" name="contactOption" class="contact-option" value="stayOnline">
+        <label for="stayOnline" class="contact-label">Stay Online</label>
+
+        <input type="radio" id="notSure" name="contactOption" class="contact-option" value="notSure">
+        <label for="notSure" class="contact-label">Not Sure</label>
+    </div>
+<br>
+    <input type="text" id="input6" name="input6" placeholder="Enter social media, phone #, email, etc"><br>
+
+    <label for="input7" id="i1">Access Needs</label>
+    <input type="text" id="input7" name="input7" placeholder="Enter Access Needs"><br>
+
+        <label for="input9" id="i1">Location</label>
+    <input type="text" id="input9" name="input9" placeholder="Enter location"><br>
+
+        <label for="input10" id="i1">Hobbies</label>
+    <input type="text" id="input10" name="input10" placeholder="Enter hobbies"><br>
+
+        <label for="input11" id="i1">Disability (optional)</label>
+    <input type="text" id="input11" name="input11" placeholder="Enter disability (optional)"><br>
+
+<label for="input12" id="i1">Bio (optional)</label>
+<div class="custom-input">
+    <textarea id="input12" name="input12" placeholder="Enter bio (optional)"></textarea>
+</div><br>
+<label for="input20" id="i1">Upload Photo below(optional)</label><br>
+    <div>
+    <img src="img/uploadicon.jpg" id="input20" name="input20" alt="Upload Icon">
+</div><br>
+        <label for="input13" id="i1">Alt Text For Profile Picture</label><br>
+    <input type="text" id="input13" name="input13" placeholder="Enter alt text for profile picture"><br>
+        <label for="input14" id="i1">(Optional) Audio Introduction By Clicking Below</label>
+    <div>
+    <img src="img/recordbutton.png" id="record" name="record" alt="Record Button">
+</div>
+
+
+    <button id="create_button">Create Account</button>
+        <div id="line"></div>
+    <br><br>
+            <button id="signin_button">Sign In</button>
+                <br>
+                <br>
+    <button id="back_button">Back</button>
+    <script>
+        // JavaScript to handle the redirection
+        document.getElementById('back_button').onclick = function() {
+            window.location.href = 'index.html';
+        };
+
+        document.getElementById('signin_button').onclick = function() {
+            window.location.href = 'login.html';
+        };
+
+        document.getElementById('create_button').onclick = function() {
+            window.location.href = 'home.html';
+        };
+    </script>
+</body>
+</html>
