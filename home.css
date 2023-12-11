@@ -9,7 +9,7 @@ body {
 
 :root {
   --primary-color: #25C5F7;
-  --default-font-color: white;
+  --default-font-color: black;
 
   --sidebar-color: #1A1A1A;
 
@@ -29,7 +29,7 @@ body {
   --t6-color: #FF5C16;
 
   --t1-bg-color: white;
-  --t2-bg-color: #111111;
+  --t2-bg-color: #151515;
   --t3-t4-t5-t6-bg-color: black;
 
   --border-style: solid;
@@ -55,6 +55,20 @@ button {
 
 button:hover, .connect-btn:hover {
   background-color: #1FA3CC;
+}
+
+.friend-card-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  color: inherit;
+}
+.friend-card-button:hover {
+  background-color: var(--card-background-color);
 }
 
 h1 {
@@ -110,6 +124,7 @@ h4, .accept-btn, .send-btn, .go-back-btn {
   position: fixed;
   overflow-y: auto;
   width: 30%;
+  border-right: solid;
 }
 
 /* .sidebar > *:not(:nth-child(1)):not(:nth-child(2)) {
@@ -324,7 +339,7 @@ hr {
 }
 
 #t2:hover, #t3:hover, #t4:hover, #t5:hover, #t6:hover {
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(34, 34, 34);
 }
 
 #t3 {
