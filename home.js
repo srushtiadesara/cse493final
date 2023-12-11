@@ -30,6 +30,7 @@
       changeBorderStyle(borderSetting);
       changeThemeBtnStyle(null, activeTheme);
     } else {
+      console.log('no default settings');
       changeBorderStyle("solid");
       changeThemeBtnStyle(null, document.getElementById('t1'));
     }
