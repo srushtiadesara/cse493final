@@ -6,44 +6,62 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="nunito.css"> <!-- Load font stylesheet first -->
-     
+
     <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="signup.css">  <!-- Then, load custom stylesheet -->
 </head>
-    
+
 <body>
     <div class="logo-container">
         <img src="img/palpalette.png" alt="PalPalette Logo" class="palpalette-logo">
     </div>
-   
+
     <header id="create-new"><center>Create new account with text entry and audio</center></header>
 
 <h2>How do you want to communicate?</h2>
 
  <form>
-  <input type="checkbox" class="nowrap-label" id="i1" name="vehicle1" value="v1" aria-label="agree to the text on the right">
-  <label for="vehicle1" class="nowrap-label" for="i1"> I prefer using a screenreader</label><br>
-  <input type="checkbox" class="nowrap-label" id="i2" name="vehicle2" value="v2" aria-label="agree to the text on the right">
-  <label for="vehicle2" class="nowrap-label" for="i1"> I prefer reduced noise</label><br>
-  <input type="checkbox" class="nowrap-label"  id="i3" name="vehicle3" value="v3" aria-label="agree to the text on the right">
-  <label for="vehicle3" class="nowrap-label" for="i1"> I prefer increased color contrast</label><br>
-    <input type="checkbox" class="nowrap-label"  id="i4" name="vehicle4" value="v4" aria-label="agree to the text on the right">
-  <label for="vehicle4" class="nowrap-label" for="i1"> I prefer reduced motion</label><br> 
-    <input type="checkbox" class="nowrap-label" id="i5" name="vehicle5" value="v5" aria-label="agree to the text on the right">
-  <label for="vehicle5" class="nowrap-label" for="i1"> I prefer reduced transparency</label><br>
-    <input type="checkbox" class="nowrap-label"  id="i6" name="vehicle6" value="v6" aria-label="agree to the text on the right">
-  <label for="vehicle6" class="nowrap-label" for="i1"> I prefer on/off labels</label><br> 
-    <input type="checkbox" class="nowrap-label"  id="i7" name="vehicle7" value="v7" aria-label="agree to the text on the right">
-  <label for="vehicle7" class="nowrap-label" for="i1"> I prefer zoom features</label><br>
-    <input type="checkbox" class="nowrap-label"  id="i8" name="vehicle8" value="v8" aria-label="agree to the text on the right">
-  <label for="vehicle8" class="nowrap-label" for="i1"> I prefer large texts</label><br>
-    <input type="checkbox" class="nowrap-label"  id="i9" name="vehicle9" value="v9" aria-label="agree to the text on the right">
-  <label for="vehicle9" class="nowrap-label" for="i1"> I prefer audio communication</label><br>
-  </form>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label" id="i1" name="vehicle1" value="v1" aria-label="agree to the text on the right">
+        <label for="vehicle1" class="nowrap-label" for="i1"> I prefer using a screenreader</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label" id="i2" name="vehicle2" value="v2" aria-label="agree to the text on the right">
+        <label for="vehicle2" class="nowrap-label" for="i1"> I prefer reduced noise</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i3" name="vehicle3" value="v3" aria-label="agree to the text on the right">
+        <label for="vehicle3" class="nowrap-label" for="i1"> I prefer increased color contrast</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i4" name="vehicle4" value="v4" aria-label="agree to the text on the right">
+        <label for="vehicle4" class="nowrap-label" for="i1"> I prefer reduced motion</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label" id="i5" name="vehicle5" value="v5" aria-label="agree to the text on the right">
+        <label for="vehicle5" class="nowrap-label" for="i1"> I prefer reduced transparency</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i6" name="vehicle6" value="v6" aria-label="agree to the text on the right">
+        <label for="vehicle6" class="nowrap-label" for="i1"> I prefer on/off labels</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i7" name="vehicle7" value="v7" aria-label="agree to the text on the right">
+        <label for="vehicle7" class="nowrap-label" for="i1"> I prefer zoom features</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i8" name="vehicle8" value="v8" aria-label="agree to the text on the right">
+        <label for="vehicle8" class="nowrap-label" for="i1"> I prefer large texts</label><br>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" class="nowrap-label"  id="i9" name="vehicle9" value="v9" aria-label="agree to the text on the right">
+        <label for="vehicle9" class="nowrap-label" for="i1"> I prefer audio communication</label><br>
+    </div>
+ </form>
       <div>
-          
+
       </div>
 <br>
     <h2>Please Introduce Yourself</h2>
@@ -59,7 +77,7 @@
 
         <label for="input3" id="i1">Pronouns</label>
     <input type="text" id="input4" name="input4" placeholder="she/her, they/them, he/him, etc"><br>
-    
+
         <label for="input8" id="i1">Age</label>
     <input type="text" id="input8" name="input8" placeholder="Enter age"><br>
 
@@ -92,20 +110,20 @@
         <label for="input11" id="i1">Disability (optional)</label>
     <input type="text" id="input11" name="input11" placeholder="Enter disability (optional)"><br>
 
-<label for="input12" id="i1">Bio (optional)</label>
-<div class="custom-input">
-    <textarea id="input12" name="input12" placeholder="Enter bio (optional)"></textarea>
-</div><br>
-<label for="input20" id="i1">Upload Photo below(optional)</label><br>
-    <div>
-    <img src="img/uploadicon.jpg" id="input20" name="input20" alt="Upload Icon">
-</div><br>
-        <label for="input13" id="i1">Alt Text For Profile Picture</label><br>
-    <input type="text" id="input13" name="input13" placeholder="Enter alt text for profile picture"><br>
-        <label for="input14" id="i1">(Optional) Audio Introduction By Clicking Below</label>
-    <div>
-    <img src="img/recordbutton.png" id="record" name="record" alt="Record Button">
-</div>
+    <label for="input12" id="i1">Bio (optional)</label>
+    <div class="custom-input">
+        <textarea id="input12" name="input12" placeholder="Enter bio (optional)"></textarea>
+    </div><br>
+    <label for="input20" id="i1">Upload Photo below(optional)</label><br>
+        <div>
+        <img src="img/uploadicon.jpg" id="input20" name="input20" alt="Upload Icon">
+    </div><br>
+            <label for="input13" id="i1">Alt Text For Profile Picture</label><br>
+        <input type="text" id="input13" name="input13" placeholder="Enter alt text for profile picture"><br>
+            <label for="input14" id="i1">(Optional) Audio Introduction By Clicking Below</label>
+        <div>
+        <img src="img/recordbutton.png" id="record" name="record" alt="Record Button">
+    </div>
 
 
     <button id="create_button">Create Account</button>

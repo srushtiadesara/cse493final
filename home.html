@@ -25,26 +25,25 @@
         </div>
         <hr>
         <div class="content-container">
-          <button class="home-btn">Home</button>
           <div class="friend-container">
             <h3 class="bold white static-c">Friends (4)</h3>
             <div class="friend-flex">
-              <div class="friend-card" tabindex=0 aria-label="Chat with David N., press enter to chat" onclick="openChat('David N.')">
+              <a class="friend-card friend-button" href="javascript:void(0)" tabindex=0 aria-label="Chat with David N., press enter to chat" onclick="openChat('David N.')">
                 <img src="img/user-1.png" alt="Profile picture of David N. I'm white skinned with blonde hair. I'm wearing a red shirt with a golden necklace while smiling in the picture." class="friend-img">
                 <p class="card-text">David N.</p>
-              </div>
-              <div class="friend-card" tabindex=0 aria-label="Chat with Sammie L., press enter to chat" onclick="openChat('Sammie L.')">
+              </a>
+              <a class="friend-card friend-button" href="javascript:void(0)" tabindex=0 aria-label="Chat with Sammie L., press enter to chat" onclick="openChat('Sammie L.')">
                 <img src="img/user-2.png" alt="Profile picture of Sammie L. I have tan skin with grey-ish hair. I'm wearing a white shirt with my favorite pair of earrings." class="friend-img">
                 <p class="card-text">Sammie L.</p>
-              </div>
-              <div class="friend-card" tabindex=0 aria-label="Chat with Sarah Gupta, press enter to chat" onclick="openChat('Sarah Gupta')">
+              </a>
+              <a class="friend-card friend-button" href="javascript:void(0)" tabindex=0 aria-label="Chat with Sarah Gupta, press enter to chat" onclick="openChat('Sarah Gupta')">
                 <img src="img/user-3.png" alt="Profile picture of Sarah Gupta. I am brown skinned, I have long hair and I wear glasses." class="friend-img">
                 <p class="card-text">Sarah Gupta</p>
-              </div>
-              <div class="friend-card" tabindex=0 aria-label="Chat with Max Ferguson, press enter to chat" onclick="openChat('Max Ferguson')">
+              </a>
+              <a class="friend-card friend-button" href="javascript:void(0)" tabindex=0 aria-label="Chat with Max Ferguson, press enter to chat" onclick="openChat('Max Ferguson')">
                 <img src="img/user-4.png" alt="Profile picture of Max Ferguson. I am brown skinned, I have short hair and a beard. I am smiling with my sunglasses on." class="friend-img">
                 <p class="card-text">Max Ferguson</p>
-              </div>
+              </a>
             </div>
           </div>
           <div class="friend-req-container">
@@ -112,6 +111,7 @@
               </div>
             </div>
           </div>
+          <button class="home-btn" onclick="window.location.href='login.html';">Sign Out</button>
         </div>
       </div>
 
@@ -165,13 +165,16 @@
           <h3 id="friend-name">Chat</h3>
           <div id="chat-messages"></div>
           <div class="message-box">
-            <input type="text" id="message-input">
+            <input type="text" id="message-input" onkeypress="handleKeyPress(event)">
             <button onclick="sendMessage()" class="send-btn">Send</button>
           </div>
         </div>
       </div>
 
     </div>
+
+    <div class="aria-live" aria-live="polite" aria-atomic="true" style="position: absolute; left: -9999px; width: 1px; height: 1px;"></div>
+    <div id="liveAnnouncer" aria-live="polite" aria-atomic="true" style="position: absolute; left: -9999px; width: 1px; height: 1px;"></div>
 
     <script src="" async defer></script>
   </body>

@@ -42,6 +42,7 @@
     window.openChat = openChat;
     window.sendMessage = sendMessage;
     window.closeChat = closeChat;
+    window.handleKeyPress = handleKeyPress;
     // Allows 'enter' key to be used to send messages
     enterKeyBehavior();
   }
@@ -173,6 +174,9 @@
     document.getElementById('friend-name').textContent = `Chat with ${friendName}`;
     // Clear previous messages if any
     document.getElementById('chat-messages').innerHTML = '';
+
+    const liveRegion = document.querySelector('.aria-live');
+    liveRegion.textContent = `Now chatting with ${friendName}`;
   }
 
   function closeChat() {
@@ -180,6 +184,12 @@
     document.querySelector('.discover-section').style.display = 'flex';
 
     document.getElementById('chatbox').style.display = 'none';
+  }
+
+  function handleKeyPress(event) {
+    if (event.key === 'Enter' || event.keyCode === 13) {
+        sendMessage();
+    }
   }
 
   function sendMessage() {
@@ -195,6 +205,13 @@
         // Clear the input field
         input.value = '';
     }
+    const liveAnnouncer = document.getElementById('liveAnnouncer');
+    liveAnnouncer.textContent = 'Message sent';
+
+    // Clear the live region after a short delay
+    setTimeout(() => {
+      liveAnnouncer.textContent = '';
+    }, 2000); // Clears after 2 seconds
   }
 
   function enterKeyBehavior() {

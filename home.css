@@ -165,6 +165,8 @@ hr {
   display: block;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .friend-card {
@@ -426,6 +428,10 @@ hr {
 
 #cancel-req {
   background-color: #B3C7CD;
+}
+
+.friend-button {
+  text-decoration: none;
 }
 
 
