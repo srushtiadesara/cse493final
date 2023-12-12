@@ -136,10 +136,6 @@ li {
   border-right: solid;
 }
 
-/* .sidebar > *:not(:nth-child(1)):not(:nth-child(2)) {
-  margin-left: 1rem;
-} */
-
 .content-container > *:not(.settings-hr) {
   margin-left: 1rem;
 }
